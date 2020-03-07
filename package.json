@@ -1,0 +1,17 @@
+{
+  "name": "hm-news-card",
+  "version": "0.0.1",
+  "description": "毫末uni-app新闻组件",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "毫末",
+    "uniapp",
+    "卡片",
+    "组件"
+  ],
+  "author": "毫末科技",
+  "license": "MIT"
+}
