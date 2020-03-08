@@ -8,7 +8,7 @@
 
 ![预览图片](http://downloads.haomo-tech.com/uniapp/hm-news-card.png)
 
-[在线效果预览](http://template.uniapp.haomo-tech.com)
+[在线效果预览](http://template.uniapp.haomo-tech.com/pages/haomo/test-component/hm-news-card)
 
 ## 技术支持
 
