@@ -82,8 +82,6 @@ export default {
 </style>
 ```
 
-详细用法请见[组件Storyboard](http://)
-
 ## 属性说明
 
 | 属性名        | 类型     | 默认值 | 说明                                                                       |
