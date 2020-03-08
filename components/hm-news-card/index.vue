@@ -11,8 +11,8 @@
         <span class="summary">{{ options.summary }}</span>
         <div class="row_2" />
         <div class="ft">
-          <span class="comments">{{ options.comments }}</span>
-          <span class="likes">{{ options.likes }}</span>
+          <span class="comments" v-show="options['showComments']">{{ options.comments }}</span>
+          <span class="likes" v-show="options['showLikes']">{{ options.likes }}</span>
         </div>
       </div>
     </div>
@@ -30,7 +30,7 @@ export default {
       type: Object,
       default: function() {
         return {
-          img: '/static/hm-news-card/img_22726_0_0.png',
+          img: '/static/hm-news-card/images/img_22726_0_0.png',
           title: '新闻标题',
           author: '作者',
           date: '16 MAY 2016',
@@ -38,7 +38,9 @@ export default {
             '新闻概要。新闻概要长度最好控制在50字符以内',
           comments: "14 评论",
           likes: "254 喜欢",
-          url: ''
+          url: '',
+          showComments: true,
+          showLikes: true
         };
       }
     }
