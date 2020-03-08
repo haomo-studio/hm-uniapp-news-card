@@ -10,9 +10,11 @@
 
 [在线效果预览](http://template.uniapp.haomo-tech.com/pages/haomo/test-component/hm-news-card)
 
+更多毫末科技的uni-app跨端模板，请见[毫末科技uni-app跨端模板](https://haomo-tech.com/sale.html)
+
 ## 技术支持
 
-* [uni-app插件市场]()
+* [uni-app插件市场](https://ext.dcloud.net.cn/plugin?id=1380)
 
 * [npm包](https://www.npmjs.com/package/hm-news-card)
 
