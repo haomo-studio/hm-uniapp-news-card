@@ -6,7 +6,9 @@
 
 ## 预览
 
-![预览图片]()
+![预览图片](http://downloads.haomo-tech.com/uniapp/hm-news-card.png)
+
+[在线效果预览](http://template.uniapp.haomo-tech.com)
 
 ## 技术支持
 
@@ -24,10 +26,6 @@
 
 毫末uni-app新闻卡片组件。支持H5/小程序(微信、支付宝、头条、百度、QQ)/App；组件可自适应各种屏幕大小的手机。
 
-![](http://downloads.haomo-tech.com/uniapp/hm-news-card.png)
-
-[在线效果预览](http://template.uniapp.haomo-tech.com)
-
 ## 使用
 
 请使用HBuilderX导入组件。
@@ -44,6 +42,42 @@ export default {
 在template中使用：
 
 ```html
+<template>
+  <div class="test-component">
+    <hm-news-card :options="options" @click="onClick"></hm-news-card>
+  </div>
+</template>
+<script>
+import HmNewsCard from '@/components/hm-components/hm-news-card/index.vue'
+
+export default {
+  components: {HmNewsCard},
+  data() {
+    return {
+      options: {
+          img: '/static/hm-news-card/images/img_22726_0_0.png',
+          title: '新闻标题',
+          author: '作者',
+          date: '16 MAY 2016',
+          summary:
+            '新闻概要。新闻概要长度最好控制在50字符以内',
+          comments: "14 评论",
+          likes: "254 喜欢",
+          url: '',
+          showComments: true,
+          showLikes: true
+        }
+    };
+  },
+  methods: {
+    onClick: function(e) {
+      console.log('onClick');
+    }
+  }
+};
+</script>
+<style>
+</style>
 ```
 
 详细用法请见[组件Storyboard](http://)
