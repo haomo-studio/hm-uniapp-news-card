@@ -8,7 +8,7 @@
 
 毫末科技将长期迭代本组件。需要技术支持，请进钉钉群：
 
-![毫末uniapp组件技术支持](http://downloads.haomo-tech.com/%E6%AF%AB%E6%9C%ABuniapp%E7%BB%84%E4%BB%B6%E6%8A%80%E6%9C%AF%E6%94%AF%E6%8C%81.jpg)
+<img style="width:150px" src="http://downloads.haomo-tech.com/%E6%AF%AB%E6%9C%ABuniapp%E7%BB%84%E4%BB%B6%E6%8A%80%E6%9C%AF%E6%94%AF%E6%8C%81.jpg">
 
 ## 概述
 
